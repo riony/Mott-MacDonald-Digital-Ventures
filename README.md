@@ -17,8 +17,8 @@ The tags are as follow:
 
 -a is the period which the data is accumulated for, in minutes, in this task it was 60
 
-The output for the variables in the example above is
------------------------------------------------------
+The output for the variables in the example above is:
+
 highest rain fall in 30 minutes:
 -
 1.0092 inches
