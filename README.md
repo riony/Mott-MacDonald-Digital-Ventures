@@ -13,9 +13,12 @@ The tags are as follow
 
 The output for the variables in the example above is
 -----------------------------------------------------
-highest rain fall in 30 minutes
+highest rain fall in 30 minutes:
+
 1.0092 inches
+
 Time which maximum rainfall occurs:
+
 2016-06-16 02:30:00 UTC time
 -----------------------------------------------------
 
