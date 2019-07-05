@@ -2,6 +2,7 @@
 
 The code can be run by executing 
 " python .\script.py -f accumRainfall.csv -r 5 -p 30 -a 60 "
+-
 within a suitable python 3.7 environment
 the only other file required is that the .csv dataset be in the same folder location as the script
 
