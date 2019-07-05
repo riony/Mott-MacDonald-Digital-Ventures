@@ -4,13 +4,17 @@ The code can be run by executing
 
 " python .\script.py -f accumRainfall.csv -r 5 -p 30 -a 60 "
 -
-within a suitable python 3.7 environment
-the only other file required is that the .csv dataset be in the same folder location as the script
+within a suitable python 3.7 environment.
+The only other file required is that the .csv dataset be in the same folder location as the script
 
-The tags are as follow
+The tags are as follow:
+
 -f is the input dataset filename 
+
 -r is the temporal resolution for deaccumulation of the data, this is given in minutes, reccommended to use 1-5 and in whole numbers
+
 -p is the period for which the max rainfall amount is to be found for, in minutes, for the given task it was 30
+
 -a is the period which the data is accumulated for, in minutes, in this task it was 60
 
 The output for the variables in the example above is
@@ -25,6 +29,7 @@ Time which maximum rainfall occurs:
 -----------------------------------------------------
 
 Given the magnitude of the hourly measurements it is likely that the units are in inches 
+
 The time generated is in UTC, the local time for the site in Pennsylvania would be 22:30:00, 2016-06-15.
 
 As the code is currently written with individual functions for parsing, deaccumulating and calculation of max values it can be easily extended by adding suitable function for parsing any new databse or types
